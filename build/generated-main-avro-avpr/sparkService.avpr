@@ -1,0 +1,52 @@
+{
+  "protocol" : "SparkService",
+  "namespace" : "com.opengov.spark.avro",
+  "types" : [ {
+    "type" : "record",
+    "name" : "SubmitBatch",
+    "doc" : "record type for submitting a job to spark service",
+    "fields" : [ {
+      "name" : "entityId",
+      "type" : {
+        "type" : "string",
+        "order" : "ignore"
+      },
+      "doc" : "attribute the job to this customer entity id, required"
+    }, {
+      "name" : "userId",
+      "type" : "string",
+      "doc" : "attribute the job to this customer user id, required"
+    }, {
+      "name" : "jobName",
+      "type" : "string",
+      "doc" : "name for the job, required"
+    }, {
+      "name" : "commandTags",
+      "type" : {
+        "type" : "array",
+        "items" : "string"
+      },
+      "doc" : "tag(s) which uniquely identify the command used to submit job, required"
+    }, {
+      "name" : "clusterTags",
+      "type" : {
+        "type" : "array",
+        "items" : "string"
+      },
+      "doc" : "tag(s) which uniquely identify the cluster to execute job, required"
+    }, {
+      "name" : "commandArgs",
+      "type" : [ "null", {
+        "type" : "array",
+        "items" : "string"
+      } ],
+      "doc" : "argument(s) to be passed to the spark job, optional"
+    }, {
+      "name" : "jobUuid",
+      "type" : [ "null", "string" ],
+      "doc" : "job identifier to use for the spark job, optional",
+      "default" : null
+    } ]
+  } ],
+  "messages" : { }
+}

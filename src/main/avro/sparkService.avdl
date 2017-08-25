@@ -1,0 +1,24 @@
+@namespace("com.opengov.spark.avro")
+
+protocol SparkService {
+
+    /** record type for submitting a job to spark service */
+    record SubmitBatch {
+        @order("ignore")
+        /** attribute the job to this customer entity id, required */
+        string entityId;
+        /** attribute the job to this customer user id, required */
+        string userId;
+        /** name for the job, required */
+        string jobName;
+        /** tag(s) which uniquely identify the command used to submit job, required */
+        array<string> commandTags;
+        /** tag(s) which uniquely identify the cluster to execute job, required */
+        array<string> clusterTags;
+        /** argument(s) to be passed to the spark job, optional */
+        union { null, array<string> } commandArgs;
+        /** job identifier to use for the spark job, optional */
+        union { null, string } jobUuid = null;
+    }
+
+}
