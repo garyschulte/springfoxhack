@@ -16,7 +16,7 @@ protocol SparkService {
         /** tag(s) which uniquely identify the cluster to execute job, required */
         array<string> clusterTags;
         /** argument(s) to be passed to the spark job, optional */
-        union { null, array<string> } commandArgs;
+        union { null, array<string> } commandArgs = null;
         /** job identifier to use for the spark job, optional */
         union { null, string } jobUuid = null;
     }

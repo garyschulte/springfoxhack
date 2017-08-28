@@ -40,7 +40,8 @@
         "type" : "array",
         "items" : "string"
       } ],
-      "doc" : "argument(s) to be passed to the spark job, optional"
+      "doc" : "argument(s) to be passed to the spark job, optional",
+      "default" : null
     }, {
       "name" : "jobUuid",
       "type" : [ "null", "string" ],

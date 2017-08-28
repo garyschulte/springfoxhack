@@ -3,8 +3,10 @@ import org.omg.CORBA.PRIVATE_MEMBER
 buildscript {
     repositories {
         mavenCentral()
+        jcenter()
     }
     dependencies {
+        classpath 'com.benjaminsproule:swagger-gradle-plugin:+'
         classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.6.RELEASE")
     }
 }
@@ -16,6 +18,7 @@ plugins {
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
+apply plugin: 'com.benjaminsproule.swagger'
 
 repositories {
     mavenCentral()
@@ -31,10 +34,39 @@ dependencies {
     compile "io.springfox:springfox-swagger2:2.7.0"
     compile 'io.springfox:springfox-swagger-ui:2.7.0'
     compile "io.springfox:springfox-bean-validators:2.7.0"
-    testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile 'io.swagger:swagger-annotations:1.5.15'
+    compile 'javax.ws.rs:javax.ws.rs-api:2.0.1'
 }
 
 avro {
     fieldVisibility = "PRIVATE"
     templateDirectory = "src/main/resources/avro-templates/"
+}
+
+swagger {
+    apiSource {
+        springmvc = true
+        locations = [ 'com.opengov.spark.controllers' ]
+        swaggerDirectory = "./generated/swagger-json"
+        swaggerApiReader = 'com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader'
+        apiModelPropertyAccessExclusionsList = [ "avro-schema" ]
+        basePath = '/'
+        info {
+            title = 'Spark Submit API'
+            description = 'proposed Spark Submit REST API.'
+            version = '0.1'
+            contact {
+                email = 'gary.schulte@opengov.com'
+                name = 'Gary Schulte'
+                url = 'http://www.opengov.com'
+            }
+            license {
+                url = 'http://www.apache.org/licenses/LICENSE-2.0.html'
+                name = 'Apache 2.0'
+            }
+        }
+        swaggerDirectory = "${project.rootDir}/generated/swagger-json"
+        swaggerApiReader = 'com.github.kongchen.swagger.docgen.reader.SpringMvcApiReader'
+        outputFormats = "json,yaml"
+    }
 }

@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54074478-213a-4a7e-af38-b2134db36283" name="Default" comment="" />
+    <list default="true" id="54074478-213a-4a7e-af38-b2134db36283" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/springfoxhack.iml" afterPath="$PROJECT_DIR$/.idea/modules/springfoxhack.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/springfoxhack_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/springfoxhack_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/springfoxhack_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/springfoxhack_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated-main-avro-avpr/sparkService.avpr" afterPath="$PROJECT_DIR$/build/generated-main-avro-avpr/sparkService.avpr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated-main-avro-java/com/opengov/spark/avro/SparkService.java" afterPath="$PROJECT_DIR$/build/generated-main-avro-java/com/opengov/spark/avro/SparkService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated-main-avro-java/com/opengov/spark/avro/SubmitBatch.java" afterPath="$PROJECT_DIR$/build/generated-main-avro-java/com/opengov/spark/avro/SubmitBatch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/avro/sparkService.avdl" afterPath="$PROJECT_DIR$/src/main/avro/sparkService.avdl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/opengov/spark/SpringfoxHack.java" afterPath="$PROJECT_DIR$/src/main/java/com/opengov/spark/SpringfoxHack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/avro-templates/record.vm" afterPath="$PROJECT_DIR$/src/main/resources/avro-templates/record.vm" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,8 +35,8 @@
       <file leaf-file-name="SparkJobController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opengov/spark/controllers/SparkJobController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="630">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1585#1586#0" expanded="true" />
@@ -36,8 +49,8 @@
       <file leaf-file-name="ApiModelProperty.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.13/eb97f818baed68433da77483582a3af0e9907d44/swagger-annotations-1.5.13-sources.jar!/io/swagger/annotations/ApiModelProperty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="1145">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,8 +59,8 @@
       <file leaf-file-name="sparkService.avdl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/avro/sparkService.avdl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            <state relative-caret-position="345">
+              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -56,8 +69,28 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="125">
+              <caret line="51" column="61" lean-forward="false" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SparkService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/generated-main-avro-java/com/opengov/spark/avro/SparkService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="record.vm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/avro-templates/record.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="101" column="41" lean-forward="false" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -66,101 +99,168 @@
       <file leaf-file-name="SubmitBatch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/generated-main-avro-java/com/opengov/spark/avro/SubmitBatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2115">
-              <caret line="147" column="5" lean-forward="true" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+            <state relative-caret-position="145">
+              <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6896#6897#0" expanded="true" />
-                <element signature="e#6921#6922#0" expanded="true" />
-                <element signature="e#7127#7128#0" expanded="true" />
-                <element signature="e#7158#7159#0" expanded="true" />
-                <element signature="e#7427#7428#0" expanded="true" />
-                <element signature="e#7450#7451#0" expanded="true" />
-                <element signature="e#7650#7651#0" expanded="true" />
-                <element signature="e#7679#7680#0" expanded="true" />
-                <element signature="e#7898#7899#0" expanded="true" />
-                <element signature="e#7922#7923#0" expanded="true" />
-                <element signature="e#8098#8099#0" expanded="true" />
-                <element signature="e#8128#8129#0" expanded="true" />
-                <element signature="e#8461#8462#0" expanded="true" />
-                <element signature="e#8489#8490#0" expanded="true" />
-                <element signature="e#8734#8735#0" expanded="true" />
-                <element signature="e#8768#8769#0" expanded="true" />
-                <element signature="e#9093#9094#0" expanded="true" />
-                <element signature="e#9121#9122#0" expanded="true" />
-                <element signature="e#9362#9363#0" expanded="true" />
-                <element signature="e#9396#9397#0" expanded="true" />
-                <element signature="e#9689#9690#0" expanded="true" />
-                <element signature="e#9717#9718#0" expanded="true" />
-                <element signature="e#9942#9943#0" expanded="true" />
-                <element signature="e#9976#9977#0" expanded="true" />
-                <marker date="1503696340000" expanded="false" signature="10240:10247" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="10262:10266" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="10463:10470" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="10491:10495" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="12775:12784" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="12799:12805" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="16102:16111" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="16127:16133" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="16801:16810" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="16836:16842" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="17350:17359" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="17373:17379" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="18029:18038" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="18064:18070" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="18546:18555" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="18570:18576" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="19181:19190" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="19216:19222" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="19744:19753" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="19772:19778" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="20517:20526" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="20552:20558" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="21133:21142" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="21161:21167" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="21898:21907" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="21933:21939" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="22494:22503" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="22522:22528" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="23227:23236" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="23262:23268" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="23781:23790" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="23805:23811" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="24462:24471" ph=" { " />
-                <marker date="1503696340000" expanded="false" signature="24497:24503" ph=" }" />
-                <marker date="1503696340000" expanded="false" signature="24831:24861" ph="/unchecked/" />
-                <marker date="1503696340000" expanded="false" signature="25919:25949" ph="/unchecked/" />
-                <marker date="1503696340000" expanded="false" signature="26271:26301" ph="/unchecked/" />
+                <marker date="1503943840000" expanded="true" signature="4547:4566" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="4666:4981" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="5134:5686" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="5690:5812" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="5852:5859" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="5875:5879" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="5883:6033" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="6083:6090" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="6112:6116" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="6120:6238" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="6276:6283" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="6297:6301" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="6305:6451" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="6499:6506" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="6526:6530" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="6534:6627" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="6666:6673" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="6688:6692" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="6696:6817" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="6866:6873" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="6894:6898" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="6902:7044" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="7103:7110" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="7129:7133" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="7137:7307" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="7376:7383" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="7408:7412" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="7416:7554" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="7613:7620" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="7639:7643" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="7647:7813" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="7882:7889" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="7914:7918" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="7922:8044" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="8103:8110" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="8129:8133" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="8137:8287" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="8356:8363" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="8388:8392" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="8396:8512" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="8551:8558" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="8573:8577" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="8581:8725" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="8774:8781" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="8802:8806" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="8810:8910" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="8983:9049" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="9053:9232" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="9353:9424" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="9428:9621" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="9734:9805" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="9809:9864" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="10030:25144" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="10037:10098" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="10142:10201" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="10243:10276" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="10319:10397" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="10460:10534" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="10597:10655" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="10718:10774" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="10818:10846" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="10868:10877" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="10892:10898" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="10904:11022" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="11093:12374" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="12380:12511" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="12574:13863" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="13869:14019" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="14249:14258" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="14274:14280" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="14286:14485" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="14576:14700" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="14706:14915" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="14948:14957" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="14983:14989" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="14996:15151" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="15222:15305" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="15311:15457" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="15681:15690" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="15704:15710" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="15716:15909" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="15998:16120" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="16126:16329" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="16360:16369" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="16395:16401" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="16408:16559" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="16628:16709" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="16715:16836" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="17036:17045" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="17060:17066" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="17072:17241" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="17331:17454" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="17460:17639" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="17671:17680" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="17706:17712" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="17719:17845" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="17915:17997" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="18003:18173" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="18442:18451" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="18470:18476" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="18482:18704" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="18814:18941" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="18947:19179" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="19215:19224" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="19250:19256" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="19263:19438" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="19512:19598" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="19604:19770" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="20035:20044" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="20063:20069" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="20075:20293" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="20403:20530" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="20536:20764" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="20800:20809" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="20835:20841" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="20848:21019" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="21093:21179" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="21185:21335" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="21585:21594" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="21613:21619" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="21625:21827" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="21937:22064" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="22070:22282" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="22318:22327" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="22353:22359" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="22366:22521" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="22595:22681" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="22687:22831" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="23055:23064" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="23079:23085" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="23091:23283" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="23373:23496" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="23502:23704" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="23736:23745" ph=" { " />
+                <marker date="1503943840000" expanded="true" signature="23771:23777" ph=" }" />
+                <marker date="1503943840000" expanded="true" signature="23784:23933" ph="/**...*/" />
+                <marker date="1503943840000" expanded="true" signature="24003:24085" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="24132:25140" ph="{...}" />
+                <marker date="1503943840000" expanded="true" signature="25651:25709" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="record.vm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/avro-templates/record.vm">
+      <file leaf-file-name="ApiModelProperty.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.15/ba013ac2565cc4f4a0f3f2df68c602e10edd197c/swagger-annotations-1.5.15-sources.jar!/io/swagger/annotations/ApiModelProperty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="66" />
+            <state relative-caret-position="165">
+              <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiOperation.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.13/eb97f818baed68433da77483582a3af0e9907d44/swagger-annotations-1.5.13-sources.jar!/io/swagger/annotations/ApiOperation.java">
+      <file leaf-file-name="ApiModel.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.13/eb97f818baed68433da77483582a3af0e9907d44/swagger-annotations-1.5.13-sources.jar!/io/swagger/annotations/ApiModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostMapping.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.10.RELEASE/e350109ba4a031049863e3e9d9f3d386ef73cfd9/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/bind/annotation/PostMapping.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+            <state relative-caret-position="225">
+              <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -169,8 +269,8 @@
       <file leaf-file-name="SpringfoxHack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opengov/spark/SpringfoxHack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+            <state relative-caret-position="465">
+              <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#920#921#0" expanded="true" />
@@ -195,7 +295,23 @@
       <find>submitting</find>
       <find>identifier</find>
       <find>ApiModel</find>
+      <find>annotat</find>
+      <find>required</find>
+      <find>option</find>
+      <find>fieldSetFlags</find>
+      <find>default</find>
+      <find>if</find>
+      <find>required = &quot;f</find>
+      <find>swagger</find>
+      <find>public</find>
+      <find>chema</find>
+      <find>chem</find>
+      <find>getSch</find>
+      <find>class</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -334,6 +450,11 @@
                 <option name="name" value="dependencyManagement" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Generates swagger documentation" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateSwaggerDocumentation" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="bootRepackage" />
@@ -414,8 +535,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4510891447000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2731710359" />
+        <entry key="$PROJECT_DIR$" value="4511138450000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1569260973" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -430,16 +551,58 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.benjaminsproule/swagger-gradle-plugin/0.1.2/d6562bd08d9b9547c0c362419ceecb70d9b05ad4/swagger-gradle-plugin-0.1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.benjaminsproule/swagger-gradle-plugin/0.1.2/fbbf1a823a98f9aa4df434cec7d92fbaeaed45a0/swagger-gradle-plugin-0.1.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.6.RELEASE/86e765c58b4f26125714d466f1d0e0ff12b1ff76/spring-boot-gradle-plugin-1.5.6.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.6.RELEASE/c072438c3be7f48f1ecb595fe73d6140bbe8d1ae/spring-boot-gradle-plugin-1.5.6.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.commercehub.gradle.plugin/gradle-avro-plugin/0.9.0/b91ca3c720146d261853c47f61e5e37c737d1d36/gradle-avro-plugin-0.9.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.commercehub.gradle.plugin/gradle-avro-plugin/0.9.0/62de75db29b0b94c2d135a308dfc04be91d9fb85/gradle-avro-plugin-0.9.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kongchen/swagger-maven-plugin/3.1.5/d68225ef27d7eb2ea6f0f2792b37ce95509f6993/swagger-maven-plugin-3.1.5-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kongchen/swagger-maven-plugin/3.1.5/67efebce1c6fb9245fdebe40e157bde3c9c6c053/swagger-maven-plugin-3.1.5.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.6.RELEASE/5c2596d77f3b1f87c921bb568f0203b54dcbd8b0/spring-boot-loader-tools-1.5.6.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.6.RELEASE/9cd2349e3be4af2a59210b37e7ee1fdab043644/spring-boot-loader-tools-1.5.6.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/7bb9ab86474b9ff2e7aa8ea3609878a1750e3f90/dependency-management-plugin-1.0.3.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/c7fc988680e19cef9bf91de0c39b891e4c8dca2d/dependency-management-plugin-1.0.3.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro-compiler/1.8.1/d9d0029157ba80263064434813b27601999ae93/avro-compiler-1.8.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro-compiler/1.8.1/a150c5bc9faba3ee4a060944b36d070939559a6b/avro-compiler-1.8.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/2.2.1/2254a7c4df37ee565bb557e46325f8483942a368/maven-artifact-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/2.2.1/23600f790d4dab2cb965419eaa982e3e84c428f8/maven-artifact-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-api/2.2.1/593f9be88010de93fcc8a57c62edea926a0418fc/maven-plugin-api-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-api/2.2.1/d60c36b60f760e0b5b87dd0c6311f93a72dc4585/maven-plugin-api-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-project/2.2.1/48d00094f3534d54ac9103cc1e1ac0d19373f96d/maven-project-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-project/2.2.1/8239e98c16f641d55a4ad0e0bab0aee3aff8933f/maven-project-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model/2.2.1/3d7c035d8455862ea4e4d7df0f19f96426da8cd6/maven-model-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model/2.2.1/c0a1c17436ec3ff5a56207c031d82277b4250a29/maven-model-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-core/2.0.9/6d4542476906871238667c302594b4550bc6caa3/maven-core-2.0.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-core/2.0.9/e1003a0a66dae77515259c5e591ea1cfd73c2859/maven-core-2.0.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jknack/handlebars/1.3.2/d9b4254c9d0d103bbb5df1cd43160feddab158c8/handlebars-1.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jknack/handlebars/1.3.2/9bf2bcc80122b3c4a168fc07a846a9d58fd78b1d/handlebars-1.3.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-jaxrs/1.5.13/9914dc03a89f8bba1aa1b0e94b0b86c86b85d5e5/swagger-jaxrs-1.5.13-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-jaxrs/1.5.13/48be66522e95b20c444bb4529582d0faae6aec3f/swagger-jaxrs-1.5.13.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.10/606b8587dab0bf1776b896003f2a2fa0470bb105/reflections-0.9.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.10/c7f4ea230aedc757ca1499ebcfb2953c81cf8b67/reflections-0.9.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.0.1/8ace0a355c375f0d20d04fa0db7b986c6637a689/commons-io-2.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.0.1/7ffdb02f95af1c1a208544e076cea5b8e66e731a/commons-io-2.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.16/bf945d1dc995be7fe64923625f842fbb6bf443be/log4j-1.2.16-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.16/7999a63bfccbc7c247a9aea10d83d4272bd492c6/log4j-1.2.16.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/f7d878153e86a1cdddf6b37850e00a9f8bff726f/commons-lang3-3.5-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/a20db7429fd8dfff74335ec867472b71c345049b/javax.ws.rs-api-2.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/104e9c2b5583cfcfeac0402316221648d6d8ea6b/javax.ws.rs-api-2.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-jersey-jaxrs/1.5.13/4af4ba2ddd9ae3f188f5824cb12ad799e241768d/swagger-jersey-jaxrs-1.5.13-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-jersey-jaxrs/1.5.13/3b46cae81b6f32f6b48a7742db4558d7bb9acac4/swagger-jersey-jaxrs-1.5.13.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-server/1.13/1d6b04b77aa88a73f173bfc4e75dcf94ec3286f/jersey-server-1.13-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-server/1.13/a83c83bf51fe532e2226a91110f1a2297711c536/jersey-server-1.13.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.7.RELEASE/137e0820eaa164c5413c79700bb289f9c83d4d81/spring-context-4.3.7.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.7.RELEASE/34b66b0b7910122ef95ba4fff6da9238ef80a5de/spring-context-4.3.7.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.7.RELEASE/f94e4cdfa0cfd7df4d1279afccdccbd150bd090a/spring-web-4.3.7.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.7.RELEASE/7b69fc68cdb74c1c92f72905af6995696fcb56aa/spring-web-4.3.7.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/14b04ebe5d1d9b54b793f84245d983b4c329634d/jackson-core-2.8.5-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/60d059f5d2930ccd1ef03535b713fd9f933d1ba7/jackson-core-2.8.5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/b658c4640ee224391e699ebaea4a3eb1c2ea8239/jackson-databind-2.8.5-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/b3035f37e674c04dafe36a660c3815cc59f764e2/jackson-databind-2.8.5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.8.4/6a1ff307ed6589bce931a41e06c6f1c566cee13a/jackson-module-jaxb-annotations-2.8.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.8.4/d2eec7cf6c4284f7d5f0b1a72dc7cfa9d6bb579d/jackson-module-jaxb-annotations-2.8.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/74cacfe24c0f88a4577990fb24c9fdf4a73f443c/spring-core-4.3.10.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/db1462df62dbedad7244da30ec471390660271c0/spring-core-4.3.10.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro/1.8.1/6964f2878322ebbc09c69f78f49b1cde4e9a200a/avro-1.8.1-sources.jar" />
@@ -454,10 +617,76 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.13/1ee2f2bed0e5dd29d1cb155a166e6f8d50bbddb7/jackson-mapper-asl-1.9.13.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.7/1fc633cf2a3f5a1767ef28b81ebc5d0ecfa1ffda/joda-time-2.7-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.7/5599707a3eaad13e889f691b3af78c8c03842195/joda-time-2.7.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/acd62e31cc314266e73eebed0b6dd7ea974a0ed/slf4j-api-1.7.7-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.22/2b9722cdf33bd0b1d1639a98034dde38b156ad34/slf4j-api-1.7.22-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.22/a1c83373863cec7ae8d89dc1c5722d8cb6ec0309/slf4j-api-1.7.22.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/1.5.15/1b1039b7725a6d1dd7b9f123acc5ad4b3b10d4ef/plexus-utils-1.5.15-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/1.5.15/c689598ce1eb94c304817877ed15911099972526/plexus-utils-1.5.15.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/2.2.1/9b5adc6a8a8de7bba166f189551630ed6c879c0/maven-settings-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/2.2.1/2236ffe71fa5f78ce42b0f5fc22c54ed45f14294/maven-settings-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-profile/2.2.1/c20d767b267a679af494ee62c313e2ff8ba43116/maven-profile-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-profile/2.2.1/3950071587027e5086e9c395574a60650c432738/maven-profile-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact-manager/2.2.1/4cbd2b82fd13793898272e3efde94553e0a34766/maven-artifact-manager-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact-manager/2.2.1/ec355b913c34d37080810f98e3f51abecbe1572b/maven-artifact-manager-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-registry/2.2.1/4bb2899cf7f21818266035efab67a8cd5068ebd0/maven-plugin-registry-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-registry/2.2.1/72a24b7775649af78f3986b5aa7eb354b9674cfd/maven-plugin-registry-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.11/80d47c6b183bd5ba343c36cf84d73daf28a31c64/plexus-interpolation-1.11-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.11/ad9dddff6043194904ad1d2c00ff1d003c3915f7/plexus-interpolation-1.11.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-container-default/1.0-alpha-9-stable-1/e9b8cdfbdca8f10c3d86f8c9ef16ab231bc379a7/plexus-container-default-1.0-alpha-9-stable-1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-container-default/1.0-alpha-9-stable-1/94aea3010e250a334d9dab7f591114cd6c767458/plexus-container-default-1.0-alpha-9-stable-1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-file/1.0-beta-2/92c9af4673a93838a780bd098dda066255fb5ac2/wagon-file-1.0-beta-2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-file/1.0-beta-2/9274be1ca512ec6c8b9bed28e7d8de016359bea0/wagon-file-1.0-beta-2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-parameter-documenter/2.0.9/e9e6b8aeb7409d5a10eec832bd2677ad429a3a49/maven-plugin-parameter-documenter-2.0.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-parameter-documenter/2.0.9/f481e2677384f6a0ab96633567d736e70657e042/maven-plugin-parameter-documenter-2.0.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-webdav/1.0-beta-2/97ff6bc063ad6e3eef6eaca2420f658c8c259b16/wagon-webdav-1.0-beta-2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-webdav/1.0-beta-2/705d42d0d3bc584e1d01a892bb8bc01928c5b126/wagon-webdav-1.0-beta-2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-http-lightweight/1.0-beta-2/ce558d4d7e3a0c8212479ffe3c53ce7d5ba479ce/wagon-http-lightweight-1.0-beta-2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-http-lightweight/1.0-beta-2/d725abe300936ae746b9c8c49782edde256804/wagon-http-lightweight-1.0-beta-2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.reporting/maven-reporting-api/2.0.9/5554228664fcdd473d90dc317c89dd7b696e015d/maven-reporting-api-2.0.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.reporting/maven-reporting-api/2.0.9/88c2303c3d1f54472cbd39cac11d9a4ad0afca25/maven-reporting-api-2.0.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-provider-api/1.0-beta-6/2ed36dee4bd5ed91a9ab12a4378189d97dddd932/wagon-provider-api-1.0-beta-6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-provider-api/1.0-beta-6/3f952e0282ae77ae59851d96bb18015e520b6208/wagon-provider-api-1.0-beta-6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-repository-metadata/2.2.1/3b32786962e043891fc08265618c8b1d37c120b9/maven-repository-metadata-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-repository-metadata/2.2.1/98f0c07fcf1eeb213bef8d9316a9935184084b06/maven-repository-metadata-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-error-diagnostics/2.0.9/f254a68decb378b0828ad783d6895a222bbcaa2a/maven-error-diagnostics-2.0.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-error-diagnostics/2.0.9/46cc6b69beebc7bbf59c4f3842f72f2c1942e8e5/maven-error-diagnostics-2.0.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.0/fc9b2f6fb941aadf5ea34f68c983b0e6bfbf2ca7/commons-cli-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.0/6dac9733315224fc562f6268df58e92d65fd0137/commons-cli-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-ssh-external/1.0-beta-2/c8e77f398697416e7f4a74117b4682f0a1ea3bf0/wagon-ssh-external-1.0-beta-2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-ssh-external/1.0-beta-2/8b1c48326fccfbf50716b08fc973e494ac585bf/wagon-ssh-external-1.0-beta-2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-descriptor/2.0.9/4ff96934a02961c321f7ec0807bd813291a0f2c6/maven-plugin-descriptor-2.0.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-descriptor/2.0.9/10443d038cd57feb4a027e7dfe09bed0925a1953/maven-plugin-descriptor-2.0.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interactivity-api/1.0-alpha-4/b0870fe516231bd56766353bea9605a9617efa92/plexus-interactivity-api-1.0-alpha-4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interactivity-api/1.0-alpha-4/a8f1178664a5457eef3f4531eb62f9505e1295f/plexus-interactivity-api-1.0-alpha-4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-monitor/2.0.9/1ed15355c4472f06d2235f0f5158803a3afd8e3f/maven-monitor-2.0.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-monitor/2.0.9/ae55264ab9ffbbfdba08c8c7853bbe4a2dd32e8a/maven-monitor-2.0.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-ssh/1.0-beta-2/9d851d81c5f7ed4446e9a4442574f3ff9b254808/wagon-ssh-1.0-beta-2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-ssh/1.0-beta-2/1ef0e22afcdbe2ef5a3c1ec684443d76a3b50ddd/wagon-ssh-1.0-beta-2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/classworlds/classworlds/1.1/44673eb402d35a91bee8ea1ce7d318c016e3e63e/classworlds-1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/classworlds/classworlds/1.1/60c708f55deeb7c5dfce8a7886ef09cbc1388eca/classworlds-1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.2.2/acaba860395c48cf01d46f42e3de4c0320d19ec4/antlr4-runtime-4.2.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.2.2/23f7a0544b36189d688de27688ebd3111f456c97/antlr4-runtime-4.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla/rhino/1.7R4/f0bd5ea08604d7a674606064649292a740f5cf1f/rhino-1.7R4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla/rhino/1.7R4/e982f2136574b9a423186fbaeaaa98dc3e5a5288/rhino-1.7R4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-core/1.5.13/648a94197c5342e0c4fbc3c93066377da5ee1d9e/swagger-core-1.5.13-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-core/1.5.13/59b5af31a8c2ab50ff6cb1cdae7c5b65afa141f7/swagger-core-1.5.13.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/jsr311-api/1.1.1/bcc4b7b569ef8bb9b82e48cf23b5aaac29a4fb4e/jsr311-api-1.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/jsr311-api/1.1.1/59033da2a1afd56af1ac576750a8d0b1830d59e6/jsr311-api-1.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/9c8493c7991464839b612d7547d6c263adf08f75/guava-20.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-multipart/1.13/3facb4f3c5f9f6f05430d6c0be453e93127598ce/jersey-multipart-1.13-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-multipart/1.13/f822011f067556dac3babfaf47d929d3c5d204ef/jersey-multipart-1.13.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.13/edb89ddc562d30a068bda4e6a7618681f2a2536a/jersey-core-1.13-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.13/4326a56dc6b2d67b7313905c353e1af225bb164f/jersey-core-1.13.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/asm/asm/3.1/2eaa4de56203f433f287a6df5885ef9ad3c5bcae/asm-3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/asm/asm/3.1/c157def142714c544bdea2e6144645702adf7097/asm-3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.7.RELEASE/5836de7a3fcc3884f46d5dfd13a241a92b831ff/spring-aop-4.3.7.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.7.RELEASE/3f243d685e4a8a78a0c291445c6d85560ec4d339/spring-aop-4.3.7.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.7.RELEASE/1b08f5c49f9794a597455c280eff37acdb221d03/spring-beans-4.3.7.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.7.RELEASE/2de9f59f3202965438f3a02057d6ad8274636044/spring-beans-4.3.7.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.7.RELEASE/6a1bf2333125cafcebc68956e174db050898680b/spring-expression-4.3.7.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.7.RELEASE/5257b6486e43d8c05674323fea5b415d4da72f38/spring-expression-4.3.7.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.5/8c5c4f090d5a215bf404fd8d9e7d97adb4273bfb/jackson-annotations-2.8.5-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.5/9d82ff47bc2c2d3b5b6a6618fe636782bbcd5b07/jackson-annotations-2.8.5.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.paranamer/paranamer/2.7/dda6e29e9450d82e04d7fc9d686d96b93c94116/paranamer-2.7-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.paranamer/paranamer/2.7/3ed64c69e882a324a75e890024c32a28aff0ade8/paranamer-2.7.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xerial.snappy/snappy-java/1.1.1.3/7677279be5bfba62a760ceca6e2c88a890d29942/snappy-java-1.1.1.3-sources.jar" />
@@ -468,6 +697,49 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.tukaani/xz/1.5/9c64274b7dbb65288237216e3fae7877fd3f2bee/xz-1.5.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/fa095ef874374e5b2a11f8b06c26a5d68c7cb3a4/commons-collections-3.2.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/backport-util-concurrent/backport-util-concurrent/3.1/eff8366924cf1a666dd20aa632febf1c2c05b8cb/backport-util-concurrent-3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/backport-util-concurrent/backport-util-concurrent/3.1/682f7ac17fed79e92f8e87d8455192b63376347b/backport-util-concurrent-3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/slide/slide-webdavlib/2.1/33bd6886b71155473b4c65f57f965f12435f14e/slide-webdavlib-2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/slide/slide-webdavlib/2.1/e1199841211a20b2a4a37cdcec1c0c72ada3b5d8/slide-webdavlib-2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-http-shared/1.0-beta-2/9a4a153e465ea254bb1cd54e2266b25d99223c0c/wagon-http-shared-1.0-beta-2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-http-shared/1.0-beta-2/7e7d262f132abb9a965cf5a2a5128376878ea2a2/wagon-http-shared-1.0-beta-2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.0.b2/d8525661c5a0a05702fa41873d250d135031ec25/xml-apis-1.0.b2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.0.b2/3136ca936f64c9d68529f048c2618bd356bf85c9/xml-apis-1.0.b2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-sink-api/1.0-alpha-10/d57cf147be409fb2dc21ff03f5d106ae592f2fb5/doxia-sink-api-1.0-alpha-10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-sink-api/1.0-alpha-10/7291218822f7fe727e3973d8be748bdcbbfa07e5/doxia-sink-api-1.0-alpha-10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-ssh-common/1.0-beta-2/d1f219d88b7fa6c04c04f1322496aaf67c5163d6/wagon-ssh-common-1.0-beta-2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-ssh-common/1.0-beta-2/f0abd9511ec8d8128ec19cb64a9b7d8e36033b21/wagon-ssh-common-1.0-beta-2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.27/53cbcfb6365aecad6ecee405b3db6df48be42e43/jsch-0.1.27-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.27/dc3be7501b71d413322735295288bdec7633730/jsch-0.1.27.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-annotations/4.2.2/99c1fc8efe77e8a26580820bcecc3fa24b7d503f/antlr4-annotations-4.2.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-annotations/4.2.2/ab9b4d205530b2b225987c1740f8d71103835aa4/antlr4-annotations-4.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.8.5/428b480e326207258ccfdff2f9ca0de387400df9/jackson-dataformat-yaml-2.8.5-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.8.5/dee4732dc03b6f3ce231fd065dcbbed25755b58f/jackson-dataformat-yaml-2.8.5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-models/1.5.13/daf7d3704cd36da958d007987eb93fe9bdf2ff5b/swagger-models-1.5.13-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-models/1.5.13/571a0046f35f9dac569a1870465248595e33ccdb/swagger-models-1.5.13.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/7163084913aa7399e4ce2cbc3ee5c00ac2b1f35f/javassist-3.18.2-GA-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/1180a90fbad732b60fb728a6bbe8fcb3151423d7/javassist-3.18.2-GA.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/annotations/2.0.1/9ef6656259841cebfb9fb0697bb122ada4485498/annotations-2.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet/mimepull/1.6/dabab53fcb403b39c0323a27b6c39c36d1199242/mimepull-1.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet/mimepull/1.6/9a108888661e4c47edec899b796c91557ebf3a35/mimepull-1.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.1/525753763e53f6f76da052b316d0f2e3bfa4d73/junit-3.8.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.1/99129f16442844f6a4a11ae22fbbee40b14d774f/junit-3.8.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-httpclient/commons-httpclient/2.0.2/47ab385c4debfd165b62f4dc747966b63ea72c0c/commons-httpclient-2.0.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-httpclient/commons-httpclient/2.0.2/48856bef6c64eb9689eab125197fdefc399c7858/commons-httpclient-2.0.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jdom/jdom/1.0/662abe0196cf554d4d7374f5d6382034171b652c/jdom-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jdom/jdom/1.0/a2ac1cd690ab4c80defe7f9bce14d35934c35cec/jdom-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.zeigermann.xml/xml-im-exporter/1.1/c27b09f985eef162b5d335f0460a130cc117596a/xml-im-exporter-1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jtidy/jtidy/4aug2000r7-dev/e0e05e9f1bf11a9d0357038ac4f497912c96f63f/jtidy-4aug2000r7-dev-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jtidy/jtidy/4aug2000r7-dev/2aecd44e0c3a7fdcf0ec19f7c58f37a07798f01f/jtidy-4aug2000r7-dev.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/63577e87886c76228db9f8a2c50ea43cde5072eb/snakeyaml-1.17-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b86dea63cbb1cc10a660c/snakeyaml-1.17.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.13/eb97f818baed68433da77483582a3af0e9907d44/swagger-annotations-1.5.13-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.13/72433c890a61a876d22063e269be421c810a1a8d/swagger-annotations-1.5.13.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/plexus/plexus-utils/1.0.2/dc78334ccdd2fd86580e9eaf0c32a7db3369bb3b/plexus-utils-1.0.2.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -565,8 +837,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/opengov/spark/controllers/SparkJobController.java" />
         <option value="$PROJECT_DIR$/src/main/avro/sparkService.avdl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opengov/spark/controllers/SparkJobController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opengov/spark/SpringfoxHack.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/avro-templates/record.vm" />
@@ -574,11 +846,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1799" />
-    <option name="y" value="-1575" />
+    <option name="x" value="91" />
+    <option name="y" value="22" />
     <option name="width" value="1680" />
-    <option name="height" value="1547" />
+    <option name="height" value="1024" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -608,6 +881,12 @@
               <item name="springfoxhack" type="b2602c69:ProjectViewProjectNode" />
               <item name="springfoxhack" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springfoxhack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springfoxhack" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-main-avro-avpr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springfoxhack" type="b2602c69:ProjectViewProjectNode" />
@@ -792,7 +1071,7 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1503696178930" />
+    <option name="lastUpdateTimestamp" value="1503943182350" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -821,36 +1100,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1799" y="-1575" width="1680" height="1547" extended-state="0" />
-    <editor active="true" />
+    <frame x="91" y="22" width="1680" height="1024" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28856748" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4510226" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -941,34 +1219,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated-main-avro-java/com/opengov/spark/avro/SparkService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/avro/sparkService.avdl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opengov/spark/SpringfoxHack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/schema/spark-submit.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -977,10 +1227,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro/1.8.1/6964f2878322ebbc09c69f78f49b1cde4e9a200a/avro-1.8.1-sources.jar!/org/apache/avro/Schema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="437" column="18" lean-forward="false" selection-start-line="437" selection-start-column="18" selection-end-line="437" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.13/eb97f818baed68433da77483582a3af0e9907d44/swagger-annotations-1.5.13-sources.jar!/io/swagger/annotations/ApiModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.13/eb97f818baed68433da77483582a3af0e9907d44/swagger-annotations-1.5.13-sources.jar!/io/swagger/annotations/ApiModelProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1145">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/avro/sparkService.avdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/opengov/spark/controllers/SparkJobController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="630">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1585#1586#0" expanded="true" />
@@ -989,97 +1271,194 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.13/eb97f818baed68433da77483582a3af0e9907d44/swagger-annotations-1.5.13-sources.jar!/io/swagger/annotations/ApiModelProperty.java">
+    <entry file="file://$PROJECT_DIR$/build/generated-main-avro-java/com/opengov/spark/avro/SparkService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated-main-avro-java/com/opengov/spark/avro/SubmitBatch.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.15/ba013ac2565cc4f4a0f3f2df68c602e10edd197c/swagger-annotations-1.5.15-sources.jar!/io/swagger/annotations/ApiModelProperty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2115">
-          <caret line="147" column="5" lean-forward="true" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opengov/spark/SpringfoxHack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6896#6897#0" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <element signature="e#7127#7128#0" expanded="true" />
-            <element signature="e#7158#7159#0" expanded="true" />
-            <element signature="e#7427#7428#0" expanded="true" />
-            <element signature="e#7450#7451#0" expanded="true" />
-            <element signature="e#7650#7651#0" expanded="true" />
-            <element signature="e#7679#7680#0" expanded="true" />
-            <element signature="e#7898#7899#0" expanded="true" />
-            <element signature="e#7922#7923#0" expanded="true" />
-            <element signature="e#8098#8099#0" expanded="true" />
-            <element signature="e#8128#8129#0" expanded="true" />
-            <element signature="e#8461#8462#0" expanded="true" />
-            <element signature="e#8489#8490#0" expanded="true" />
-            <element signature="e#8734#8735#0" expanded="true" />
-            <element signature="e#8768#8769#0" expanded="true" />
-            <element signature="e#9093#9094#0" expanded="true" />
-            <element signature="e#9121#9122#0" expanded="true" />
-            <element signature="e#9362#9363#0" expanded="true" />
-            <element signature="e#9396#9397#0" expanded="true" />
-            <element signature="e#9689#9690#0" expanded="true" />
-            <element signature="e#9717#9718#0" expanded="true" />
-            <element signature="e#9942#9943#0" expanded="true" />
-            <element signature="e#9976#9977#0" expanded="true" />
-            <marker date="1503696340000" expanded="false" signature="10240:10247" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="10262:10266" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="10463:10470" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="10491:10495" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="12775:12784" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="12799:12805" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="16102:16111" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="16127:16133" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="16801:16810" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="16836:16842" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="17350:17359" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="17373:17379" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="18029:18038" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="18064:18070" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="18546:18555" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="18570:18576" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="19181:19190" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="19216:19222" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="19744:19753" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="19772:19778" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="20517:20526" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="20552:20558" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="21133:21142" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="21161:21167" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="21898:21907" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="21933:21939" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="22494:22503" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="22522:22528" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="23227:23236" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="23262:23268" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="23781:23790" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="23805:23811" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="24462:24471" ph=" { " />
-            <marker date="1503696340000" expanded="false" signature="24497:24503" ph=" }" />
-            <marker date="1503696340000" expanded="false" signature="24831:24861" ph="/unchecked/" />
-            <marker date="1503696340000" expanded="false" signature="25919:25949" ph="/unchecked/" />
-            <marker date="1503696340000" expanded="false" signature="26271:26301" ph="/unchecked/" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="125">
+          <caret line="51" column="61" lean-forward="false" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/generated-main-avro-java/com/opengov/spark/avro/SubmitBatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="31" />
+          <folding>
+            <marker date="1503943840000" expanded="true" signature="4547:4566" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="4666:4981" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="5134:5686" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="5690:5812" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="5852:5859" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="5875:5879" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="5883:6033" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="6083:6090" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="6112:6116" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="6120:6238" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="6276:6283" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="6297:6301" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="6305:6451" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="6499:6506" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="6526:6530" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="6534:6627" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="6666:6673" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="6688:6692" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="6696:6817" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="6866:6873" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="6894:6898" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="6902:7044" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="7103:7110" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="7129:7133" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="7137:7307" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="7376:7383" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="7408:7412" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="7416:7554" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="7613:7620" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="7639:7643" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="7647:7813" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="7882:7889" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="7914:7918" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="7922:8044" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="8103:8110" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="8129:8133" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="8137:8287" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="8356:8363" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="8388:8392" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="8396:8512" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="8551:8558" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="8573:8577" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="8581:8725" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="8774:8781" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="8802:8806" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="8810:8910" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="8983:9049" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="9053:9232" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="9353:9424" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="9428:9621" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="9734:9805" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="9809:9864" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="10030:25144" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="10037:10098" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="10142:10201" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="10243:10276" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="10319:10397" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="10460:10534" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="10597:10655" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="10718:10774" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="10818:10846" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="10868:10877" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="10892:10898" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="10904:11022" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="11093:12374" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="12380:12511" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="12574:13863" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="13869:14019" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="14249:14258" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="14274:14280" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="14286:14485" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="14576:14700" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="14706:14915" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="14948:14957" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="14983:14989" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="14996:15151" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="15222:15305" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="15311:15457" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="15681:15690" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="15704:15710" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="15716:15909" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="15998:16120" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="16126:16329" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="16360:16369" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="16395:16401" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="16408:16559" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="16628:16709" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="16715:16836" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="17036:17045" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="17060:17066" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="17072:17241" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="17331:17454" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="17460:17639" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="17671:17680" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="17706:17712" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="17719:17845" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="17915:17997" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="18003:18173" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="18442:18451" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="18470:18476" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="18482:18704" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="18814:18941" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="18947:19179" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="19215:19224" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="19250:19256" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="19263:19438" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="19512:19598" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="19604:19770" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="20035:20044" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="20063:20069" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="20075:20293" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="20403:20530" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="20536:20764" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="20800:20809" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="20835:20841" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="20848:21019" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="21093:21179" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="21185:21335" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="21585:21594" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="21613:21619" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="21625:21827" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="21937:22064" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="22070:22282" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="22318:22327" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="22353:22359" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="22366:22521" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="22595:22681" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="22687:22831" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="23055:23064" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="23079:23085" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="23091:23283" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="23373:23496" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="23502:23704" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="23736:23745" ph=" { " />
+            <marker date="1503943840000" expanded="true" signature="23771:23777" ph=" }" />
+            <marker date="1503943840000" expanded="true" signature="23784:23933" ph="/**...*/" />
+            <marker date="1503943840000" expanded="true" signature="24003:24085" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="24132:25140" ph="{...}" />
+            <marker date="1503943840000" expanded="true" signature="25651:25709" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/avro-templates/record.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="66" />
+        <state relative-caret-position="143">
+          <caret line="101" column="41" lean-forward="false" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="41" />
           <folding />
         </state>
       </provider>

@@ -29,9 +29,12 @@ import org.apache.avro.specific.SpecificData;
 @$annotation
 #end
 @org.apache.avro.specific.AvroGenerated
+@io.swagger.annotations.ApiModel(value = "$schema.getName()", description = "$schema.getDoc()")
 public class ${this.mangle($schema.getName())}#if ($schema.isError()) extends org.apache.avro.specific.SpecificExceptionBase#else extends org.apache.avro.specific.SpecificRecordBase#end implements org.apache.avro.specific.SpecificRecord {
   private static final long serialVersionUID = ${this.fingerprint64($schema)}L;
+  @io.swagger.annotations.ApiModelProperty(hidden=true, name = "schema", access = "avro-schema")
   public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse(${this.javaSplit($schema.toString())});
+  @io.swagger.annotations.ApiModelProperty(hidden=true, name = "schema", access = "avro-schema")
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
 #foreach ($field in $schema.getFields())
 #if ($field.doc())
@@ -95,6 +98,7 @@ public class ${this.mangle($schema.getName())}#if ($schema.isError()) extends or
 #end
 
 #end
+  @io.swagger.annotations.ApiModelProperty(hidden=true, name = "schema", access = "avro-schema")
   public org.apache.avro.Schema getSchema() { return SCHEMA$; }
   // Used by DatumWriter.  Applications should not call.
   public java.lang.Object get(int field$) {
@@ -282,6 +286,7 @@ public class ${this.mangle($schema.getName())}#if ($schema.isError()) extends or
 #end
       * @return The value.
       */
+    @io.swagger.annotations.ApiModelProperty(name = "$field.name()", value = "$field.doc()", notes = "hey, some notes would go here", required = #if($field.defaultValue())false#{else}true#end)
     public ${this.javaType($field.schema())} ${this.generateGetMethod($schema, $field)}() {
       return ${this.mangle($field.name(), $schema.isError())};
     }

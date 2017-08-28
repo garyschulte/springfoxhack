@@ -18,6 +18,8 @@
     <orderEntry type="library" name="Gradle: io.springfox:springfox-swagger2:2.7.0" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-swagger-ui:2.7.0" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-bean-validators:2.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.swagger:swagger-annotations:1.5.15" level="project" />
+    <orderEntry type="library" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.5.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-validator:5.3.5.Final" level="project" />
@@ -31,7 +33,6 @@
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-compress:1.8.1" level="project" />
     <orderEntry type="library" name="Gradle: org.tukaani:xz:1.5" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
-    <orderEntry type="library" name="Gradle: io.swagger:swagger-annotations:1.5.13" level="project" />
     <orderEntry type="library" name="Gradle: io.swagger:swagger-models:1.5.13" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-spi:2.7.0" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-schema:2.7.0" level="project" />

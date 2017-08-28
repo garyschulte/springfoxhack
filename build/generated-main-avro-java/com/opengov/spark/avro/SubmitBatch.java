@@ -6,52 +6,17 @@
 package com.opengov.spark.avro;
 
 import org.apache.avro.specific.SpecificData;
-import org.apache.avro.message.BinaryMessageEncoder;
-import org.apache.avro.message.BinaryMessageDecoder;
-import org.apache.avro.message.SchemaStore;
 
 @SuppressWarnings("all")
 /** record type for submitting a job to spark service */
 @org.apache.avro.specific.AvroGenerated
+@io.swagger.annotations.ApiModel(value = "SubmitBatch", description = "record type for submitting a job to spark service")
 public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
   private static final long serialVersionUID = 105688531486565319L;
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"SubmitBatch\",\"namespace\":\"com.opengov.spark.avro\",\"doc\":\"record type for submitting a job to spark service\",\"fields\":[{\"name\":\"entityId\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\",\"order\":\"ignore\"},\"doc\":\"attribute the job to this customer entity id, required\"},{\"name\":\"userId\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"},\"doc\":\"attribute the job to this customer user id, required\"},{\"name\":\"jobName\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"},\"doc\":\"name for the job, required\"},{\"name\":\"commandTags\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},\"doc\":\"tag(s) which uniquely identify the command used to submit job, required\"},{\"name\":\"clusterTags\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},\"doc\":\"tag(s) which uniquely identify the cluster to execute job, required\"},{\"name\":\"commandArgs\",\"type\":[\"null\",{\"type\":\"array\",\"items\":{\"type\":\"string\",\"avro.java.string\":\"String\"}}],\"doc\":\"argument(s) to be passed to the spark job, optional\"},{\"name\":\"jobUuid\",\"type\":[\"null\",{\"type\":\"string\",\"avro.java.string\":\"String\"}],\"doc\":\"job identifier to use for the spark job, optional\",\"default\":null}]}");
+  @io.swagger.annotations.ApiModelProperty(hidden=true, name = "schema", access = "avro-schema")
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"SubmitBatch\",\"namespace\":\"com.opengov.spark.avro\",\"doc\":\"record type for submitting a job to spark service\",\"fields\":[{\"name\":\"entityId\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\",\"order\":\"ignore\"},\"doc\":\"attribute the job to this customer entity id, required\"},{\"name\":\"userId\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"},\"doc\":\"attribute the job to this customer user id, required\"},{\"name\":\"jobName\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"},\"doc\":\"name for the job, required\"},{\"name\":\"commandTags\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},\"doc\":\"tag(s) which uniquely identify the command used to submit job, required\"},{\"name\":\"clusterTags\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},\"doc\":\"tag(s) which uniquely identify the cluster to execute job, required\"},{\"name\":\"commandArgs\",\"type\":[\"null\",{\"type\":\"array\",\"items\":{\"type\":\"string\",\"avro.java.string\":\"String\"}}],\"doc\":\"argument(s) to be passed to the spark job, optional\",\"default\":null},{\"name\":\"jobUuid\",\"type\":[\"null\",{\"type\":\"string\",\"avro.java.string\":\"String\"}],\"doc\":\"job identifier to use for the spark job, optional\",\"default\":null}]}");
+  @io.swagger.annotations.ApiModelProperty(hidden=true, name = "schema", access = "avro-schema")
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
-
-  private static SpecificData MODEL$ = new SpecificData();
-
-  private static final BinaryMessageEncoder<SubmitBatch> ENCODER =
-      new BinaryMessageEncoder<SubmitBatch>(MODEL$, SCHEMA$);
-
-  private static final BinaryMessageDecoder<SubmitBatch> DECODER =
-      new BinaryMessageDecoder<SubmitBatch>(MODEL$, SCHEMA$);
-
-  /**
-   * Return the BinaryMessageDecoder instance used by this class.
-   */
-  public static BinaryMessageDecoder<SubmitBatch> getDecoder() {
-    return DECODER;
-  }
-
-  /**
-   * Create a new BinaryMessageDecoder instance for this class that uses the specified {@link SchemaStore}.
-   * @param resolver a {@link SchemaStore} used to find schemas by fingerprint
-   */
-  public static BinaryMessageDecoder<SubmitBatch> createDecoder(SchemaStore resolver) {
-    return new BinaryMessageDecoder<SubmitBatch>(MODEL$, SCHEMA$, resolver);
-  }
-
-  /** Serializes this SubmitBatch to a ByteBuffer. */
-  public java.nio.ByteBuffer toByteBuffer() throws java.io.IOException {
-    return ENCODER.encode(this);
-  }
-
-  /** Deserializes a SubmitBatch from a ByteBuffer. */
-  public static SubmitBatch fromByteBuffer(
-      java.nio.ByteBuffer b) throws java.io.IOException {
-    return DECODER.decode(b);
-  }
-
   /** attribute the job to this customer entity id, required */
    private java.lang.String entityId;
   /** attribute the job to this customer user id, required */
@@ -94,6 +59,7 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
     this.jobUuid = jobUuid;
   }
 
+  @io.swagger.annotations.ApiModelProperty(hidden=true, name = "schema", access = "avro-schema")
   public org.apache.avro.Schema getSchema() { return SCHEMA$; }
   // Used by DatumWriter.  Applications should not call.
   public java.lang.Object get(int field$) {
@@ -128,7 +94,6 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
    * Gets the value of the 'entityId' field.
    * @return attribute the job to this customer entity id, required
    */
-  @io.swagger.annotations.ApiModelProperty(value = "attribute the job to this customer entity id, required")
   public java.lang.String getEntityId() {
     return entityId;
   }
@@ -146,7 +111,6 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
    * Gets the value of the 'userId' field.
    * @return attribute the job to this customer user id, required
    */
-  @io.swagger.annotations.ApiModelProperty(value = "attribute the job to this customer user id, required")
   public java.lang.String getUserId() {
     return userId;
   }
@@ -164,7 +128,6 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
    * Gets the value of the 'jobName' field.
    * @return name for the job, required
    */
-  @io.swagger.annotations.ApiModelProperty(value = "name for the job, required")
   public java.lang.String getJobName() {
     return jobName;
   }
@@ -182,7 +145,6 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
    * Gets the value of the 'commandTags' field.
    * @return tag(s) which uniquely identify the command used to submit job, required
    */
-  @io.swagger.annotations.ApiModelProperty(value = "tag(s) which uniquely identify the command used to submit job, required")
   public java.util.List<java.lang.String> getCommandTags() {
     return commandTags;
   }
@@ -200,7 +162,6 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
    * Gets the value of the 'clusterTags' field.
    * @return tag(s) which uniquely identify the cluster to execute job, required
    */
-  @io.swagger.annotations.ApiModelProperty(value = "tag(s) which uniquely identify the cluster to execute job, required")
   public java.util.List<java.lang.String> getClusterTags() {
     return clusterTags;
   }
@@ -218,7 +179,6 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
    * Gets the value of the 'commandArgs' field.
    * @return argument(s) to be passed to the spark job, optional
    */
-  @io.swagger.annotations.ApiModelProperty(value = "argument(s) to be passed to the spark job, optional")
   public java.util.List<java.lang.String> getCommandArgs() {
     return commandArgs;
   }
@@ -236,7 +196,6 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
    * Gets the value of the 'jobUuid' field.
    * @return job identifier to use for the spark job, optional
    */
-  @io.swagger.annotations.ApiModelProperty(value = "job identifier to use for the spark job, optional")
   public java.lang.String getJobUuid() {
     return jobUuid;
   }
@@ -264,11 +223,7 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
    * @return A new SubmitBatch RecordBuilder
    */
   public static com.opengov.spark.avro.SubmitBatch.Builder newBuilder(com.opengov.spark.avro.SubmitBatch.Builder other) {
-    if (other == null) {
-      return new com.opengov.spark.avro.SubmitBatch.Builder();
-    } else {
-      return new com.opengov.spark.avro.SubmitBatch.Builder(other);
-    }
+    return new com.opengov.spark.avro.SubmitBatch.Builder(other);
   }
 
   /**
@@ -277,11 +232,7 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
    * @return A new SubmitBatch RecordBuilder
    */
   public static com.opengov.spark.avro.SubmitBatch.Builder newBuilder(com.opengov.spark.avro.SubmitBatch other) {
-    if (other == null) {
-      return new com.opengov.spark.avro.SubmitBatch.Builder();
-    } else {
-      return new com.opengov.spark.avro.SubmitBatch.Builder(other);
-    }
+    return new com.opengov.spark.avro.SubmitBatch.Builder(other);
   }
 
   /**
@@ -318,31 +269,31 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
       super(other);
       if (isValidValue(fields()[0], other.entityId)) {
         this.entityId = data().deepCopy(fields()[0].schema(), other.entityId);
-        fieldSetFlags()[0] = other.fieldSetFlags()[0];
+        fieldSetFlags()[0] = true;
       }
       if (isValidValue(fields()[1], other.userId)) {
         this.userId = data().deepCopy(fields()[1].schema(), other.userId);
-        fieldSetFlags()[1] = other.fieldSetFlags()[1];
+        fieldSetFlags()[1] = true;
       }
       if (isValidValue(fields()[2], other.jobName)) {
         this.jobName = data().deepCopy(fields()[2].schema(), other.jobName);
-        fieldSetFlags()[2] = other.fieldSetFlags()[2];
+        fieldSetFlags()[2] = true;
       }
       if (isValidValue(fields()[3], other.commandTags)) {
         this.commandTags = data().deepCopy(fields()[3].schema(), other.commandTags);
-        fieldSetFlags()[3] = other.fieldSetFlags()[3];
+        fieldSetFlags()[3] = true;
       }
       if (isValidValue(fields()[4], other.clusterTags)) {
         this.clusterTags = data().deepCopy(fields()[4].schema(), other.clusterTags);
-        fieldSetFlags()[4] = other.fieldSetFlags()[4];
+        fieldSetFlags()[4] = true;
       }
       if (isValidValue(fields()[5], other.commandArgs)) {
         this.commandArgs = data().deepCopy(fields()[5].schema(), other.commandArgs);
-        fieldSetFlags()[5] = other.fieldSetFlags()[5];
+        fieldSetFlags()[5] = true;
       }
       if (isValidValue(fields()[6], other.jobUuid)) {
         this.jobUuid = data().deepCopy(fields()[6].schema(), other.jobUuid);
-        fieldSetFlags()[6] = other.fieldSetFlags()[6];
+        fieldSetFlags()[6] = true;
       }
     }
 
@@ -351,7 +302,7 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
      * @param other The existing instance to copy.
      */
     private Builder(com.opengov.spark.avro.SubmitBatch other) {
-      super(SCHEMA$);
+            super(SCHEMA$);
       if (isValidValue(fields()[0], other.entityId)) {
         this.entityId = data().deepCopy(fields()[0].schema(), other.entityId);
         fieldSetFlags()[0] = true;
@@ -387,6 +338,7 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
       * attribute the job to this customer entity id, required
       * @return The value.
       */
+    @io.swagger.annotations.ApiModelProperty(name = "entityId", value = "attribute the job to this customer entity id, required", notes = "hey, some notes would go here", required = true)
     public java.lang.String getEntityId() {
       return entityId;
     }
@@ -430,6 +382,7 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
       * attribute the job to this customer user id, required
       * @return The value.
       */
+    @io.swagger.annotations.ApiModelProperty(name = "userId", value = "attribute the job to this customer user id, required", notes = "hey, some notes would go here", required = true)
     public java.lang.String getUserId() {
       return userId;
     }
@@ -473,6 +426,7 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
       * name for the job, required
       * @return The value.
       */
+    @io.swagger.annotations.ApiModelProperty(name = "jobName", value = "name for the job, required", notes = "hey, some notes would go here", required = true)
     public java.lang.String getJobName() {
       return jobName;
     }
@@ -516,6 +470,7 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
       * tag(s) which uniquely identify the command used to submit job, required
       * @return The value.
       */
+    @io.swagger.annotations.ApiModelProperty(name = "commandTags", value = "tag(s) which uniquely identify the command used to submit job, required", notes = "hey, some notes would go here", required = true)
     public java.util.List<java.lang.String> getCommandTags() {
       return commandTags;
     }
@@ -559,6 +514,7 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
       * tag(s) which uniquely identify the cluster to execute job, required
       * @return The value.
       */
+    @io.swagger.annotations.ApiModelProperty(name = "clusterTags", value = "tag(s) which uniquely identify the cluster to execute job, required", notes = "hey, some notes would go here", required = true)
     public java.util.List<java.lang.String> getClusterTags() {
       return clusterTags;
     }
@@ -602,6 +558,7 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
       * argument(s) to be passed to the spark job, optional
       * @return The value.
       */
+    @io.swagger.annotations.ApiModelProperty(name = "commandArgs", value = "argument(s) to be passed to the spark job, optional", notes = "hey, some notes would go here", required = false)
     public java.util.List<java.lang.String> getCommandArgs() {
       return commandArgs;
     }
@@ -645,6 +602,7 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
       * job identifier to use for the spark job, optional
       * @return The value.
       */
+    @io.swagger.annotations.ApiModelProperty(name = "jobUuid", value = "job identifier to use for the spark job, optional", notes = "hey, some notes would go here", required = false)
     public java.lang.String getJobUuid() {
       return jobUuid;
     }
@@ -684,7 +642,6 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
     }
 
     @Override
-    @SuppressWarnings("unchecked")
     public SubmitBatch build() {
       try {
         SubmitBatch record = new SubmitBatch();
@@ -696,24 +653,22 @@ public class SubmitBatch extends org.apache.avro.specific.SpecificRecordBase imp
         record.commandArgs = fieldSetFlags()[5] ? this.commandArgs : (java.util.List<java.lang.String>) defaultValue(fields()[5]);
         record.jobUuid = fieldSetFlags()[6] ? this.jobUuid : (java.lang.String) defaultValue(fields()[6]);
         return record;
-      } catch (java.lang.Exception e) {
+      } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);
       }
     }
   }
 
-  @SuppressWarnings("unchecked")
-  private static final org.apache.avro.io.DatumWriter<SubmitBatch>
-    WRITER$ = (org.apache.avro.io.DatumWriter<SubmitBatch>)MODEL$.createDatumWriter(SCHEMA$);
+  private static final org.apache.avro.io.DatumWriter
+    WRITER$ = new org.apache.avro.specific.SpecificDatumWriter(SCHEMA$);
 
   @Override public void writeExternal(java.io.ObjectOutput out)
     throws java.io.IOException {
     WRITER$.write(this, SpecificData.getEncoder(out));
   }
 
-  @SuppressWarnings("unchecked")
-  private static final org.apache.avro.io.DatumReader<SubmitBatch>
-    READER$ = (org.apache.avro.io.DatumReader<SubmitBatch>)MODEL$.createDatumReader(SCHEMA$);
+  private static final org.apache.avro.io.DatumReader
+    READER$ = new org.apache.avro.specific.SpecificDatumReader(SCHEMA$);
 
   @Override public void readExternal(java.io.ObjectInput in)
     throws java.io.IOException {

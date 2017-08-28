@@ -6,3 +6,5 @@ client/pip-selfcheck.json
 */.Python
 .idea/libraries/*
 .gradle/*
+build/*
+generated/*
